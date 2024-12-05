@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    font-family: "Notable", sans-serif;
+    text-shadow: 3px 3px 5px #C22A25;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+}
+
+header img{
+    width: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+header a{
+    margin-top: 5%;
+    color:whitesmoke
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family: "Notable", sans-serif;
+    color:#A51611;
+    font-size: 80px;
+    text-align: left;
+    text-shadow: 3px 3px 5px black;
+    margin: 5% 10%;
+}
+
+h3{
+    font-family: "Notable", sans-serif;
+    font-size: 25px;
+    margin: 5% 10%;
+}
+
+#info{
+    font-family: "Forum", serif;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 41%;
+    text-align: justify;
+}
+
+h2{
+    font-family: "Notable", sans-serif;
+    color:#A51611;
+    font-size: 40px;
+    margin: 3% 10%;
+    text-shadow: 3px 3px 5px black;
+}
+
+h4{
+    font-family: "Notable", sans-serif;
+    font-size: 30px;
+    margin: 3% 10%;
+}
+
+#friday{
+    background-color: #DC793D ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fridayText{
+    background-color: #DC793D ;
+    padding-left: 10%;
+}
+
+#fridayText h5{
+    font-family: "Notable", sans-serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+
+#fridayText h6{
+    font-family: "Forum", serif;
+    font-size: 20px;
+}
+
+#friEventInfo{
+    background-color: #DC793D ;
+    font-family: "Forum", serif;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+
+#saturday{
+    background-color: #D15030 ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sunday{
+    background-color: #C22A25 ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Notable", sans-serif;
+    text-shadow: 3px 3px 5px #C22A25;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer a{
+    color: whitesmoke;
+}
+
