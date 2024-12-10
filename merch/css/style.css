@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #d9834e;
+    background-color: black;
     font-family: "Notable", sans-serif;
     text-shadow: 3px 3px 5px #C22A25;
     display: flex;
@@ -16,12 +16,13 @@ header{
 header img{
     width: 5%;
     margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 header a{
     margin-top: 5%;
-    color:black
-    
+    color:whitesmoke;
+    font-size: 20px;
 }
 
 a{
@@ -30,28 +31,27 @@ a{
 }
 
 body{
-    background-color: #d9834e;
+    background-color: white;
 }
+
 
 h1{
     font-family: "Notable", sans-serif;
-    font-size: 50px;
+    color:#A51611;
+    font-size: 80px;
     text-align: left;
-    text-shadow: 3px 3px 5px #C22A25;
+    text-shadow: 3px 3px 5px rgb(52, 51, 51);
     margin: 5% 10%;
 }
 
-
 footer{
-    background-color: #d9834e;
-    color: black;
+    background-color: black;
+    color: whitesmoke;
     font-family: "Notable", sans-serif;
+    font-size: 20px;
     text-shadow: 3px 3px 5px #C22A25;
-    padding: 3%;
+    padding: 7%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-footer a{
-    color: black;
 }

@@ -21,7 +21,8 @@ header img{
 
 header a{
     margin-top: 5%;
-    color:whitesmoke
+    color:whitesmoke;
+    font-size: 20px;
 }
 
 a{
@@ -30,44 +31,55 @@ a{
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 h1{
     font-family: "Notable", sans-serif;
     color:#A51611;
+    text-shadow: 3px 3px 5px rgb(52, 51, 51);
     font-size: 80px;
     text-align: left;
-    text-shadow: 3px 3px 5px black;
     margin: 5% 10%;
 }
 
 h3{
     font-family: "Notable", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     margin: 5% 10%;
 }
 
-#info{
+.info p{
     font-family: "Forum", serif;
     font-size: 20px;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 10%;
-    margin-right: 41%;
+    margin-right: 3%;
     text-align: justify;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.info img{
+    margin-right: 10%;
+    width: 45%;
+    box-shadow: 15px 15px black;
 }
 
 h2{
     font-family: "Notable", sans-serif;
     color:#A51611;
     font-size: 40px;
-    margin: 3% 10%;
-    text-shadow: 3px 3px 5px black;
+    margin: 5% 10%;
+    text-shadow: 3px 3px 5px rgb(52, 51, 51);
 }
 
 h4{
     font-family: "Notable", sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     margin: 3% 10%;
 }
 
@@ -77,35 +89,90 @@ h4{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 3%;
 }
 
-#fridayText{
+#fridayText1{
     background-color: #DC793D ;
     padding-left: 10%;
 }
 
-#fridayText h5{
+#fridayText1 h5{
     font-family: "Notable", sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     padding-bottom: 1%;
 }
 
-#fridayText h6{
+#fridayText1 h6{
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 23px;
 }
 
-#friEventInfo{
+#friEventInfo1{
     background-color: #DC793D ;
+    display: flex;
+    flex-direction: row;
+}
+
+#friEventInfo1 p{
     font-family: "Forum", serif;
     font-size: 20px;
-    padding-top: 1%;
+    line-height: 25px;
+    padding-top: 8%;
     padding-left: 10%;
-    padding-right: 50%;
-    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
     text-align: justify;
 }
 
+#friEventInfo1 img{
+    margin-right: 10%;
+    width: 35%;
+    box-shadow: 15px 15px black;
+}
+
+#fridayText2{
+    background-color: #DC793D ;
+    padding-right: 10%;
+    padding-top: 5%;
+    text-align: right;
+}
+
+#fridayText2 h5{
+    font-family: "Notable", sans-serif;
+    font-size: 26px;
+    padding-bottom: 1%;
+}
+
+#fridayText2 h6{
+    font-family: "Forum", serif;
+    font-size: 23px;
+}
+
+#friEventInfo2{
+    background-color: #DC793D ;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8%;
+}
+
+#friEventInfo2 p{
+    font-family: "Forum", serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+    text-align: justify;
+}
+
+#friEventInfo2 img{
+    margin-left: 10%;
+    width: 35%;
+    box-shadow: 15px 15px black;
+}
 
 #saturday{
     background-color: #D15030 ;
@@ -113,27 +180,151 @@ h4{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 3%;
+}
+
+#satText1{
+    background-color: #D15030 ;
+    padding-left: 10%;
+}
+
+#satText1 h5{
+    font-family: "Notable", sans-serif;
+    font-size: 26px;
+    padding-bottom: 1%;
+}
+
+#satText1 h6{
+    font-family: "Forum", serif;
+    font-size: 23px;
+}
+
+#satEventInfo1{
+    background-color: #D15030 ;
+    display: flex;
+    flex-direction: row;
+}
+
+#satEventInfo1 p{
+    font-family: "Forum", serif;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    text-align: justify;
+}
+
+#satEventInfo1 img{
+    margin-right: 10%;
+    width: 35%;
+    box-shadow: 15px 15px black;
+}
+
+#satText2{
+    background-color: #D15030 ;
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+#satText2 h5{
+    font-family: "Notable", sans-serif;
+    font-size: 26px;
+    padding-bottom: 1%;
+}
+
+#satText2 h6{
+    font-family: "Forum", serif;
+    font-size: 23px;
+}
+
+#satEventInfo2{
+    background-color: #D15030 ;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8%;
+}
+
+#satEventInfo2 p{
+    font-family: "Forum", serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    padding-top: 13%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+    text-align: justify;
+}
+
+#satEventInfo2 img{
+    margin-left: 10%;
+    width: 25%;
+    box-shadow: 15px 15px black;
 }
 
 #sunday{
-    background-color: #C22A25 ;
+    background-color: #ca2822 ;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#sundayText{
+    background-color: #ca2822 ;
+    padding-left: 10%;
+    text-align: left;
+}
+
+#sundayText h5{
+    font-family: "Notable", sans-serif;
+    font-size: 26px;
+    padding-bottom: 1%;
+}
+
+#sundayText h6{
+    font-family: "Forum", serif;
+    font-size: 23px;
+}
+
+#sunEventInfo{
+    background-color: #ca2822 ;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8%;
+}
+
+#sunEventInfo p{
+    font-family: "Forum", serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+    text-align: justify;
+}
+
+#sunEventInfo img{
+    margin-right: 10%;
+    width: 35%;
+    box-shadow: 15px 15px black;
 }
 
 footer{
     background-color: black;
     color: whitesmoke;
     font-family: "Notable", sans-serif;
+    font-size: 20px;
     text-shadow: 3px 3px 5px #C22A25;
-    padding: 3%;
+    padding: 6%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-footer a{
-    color: whitesmoke;
-}
-
