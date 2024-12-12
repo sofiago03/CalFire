@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-size: 100%;
 }
+
+body{
+    margin: 0;
+    background-color: white;
+    min-height: 100dvh;
+    width: 100%;
+}
+
 header{
     background-color: black;
     font-family: "Notable", sans-serif;
@@ -22,7 +32,12 @@ header img{
 header a{
     margin-top: 5%;
     color:whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+header a:hover{
+    color: #C22A25;
+    text-shadow: 3px 3px 5px rgb(226, 225, 225);
 }
 
 a{
@@ -41,7 +56,66 @@ h1{
     font-size: 80px;
     text-align: left;
     text-shadow: 3px 3px 5px rgb(52, 51, 51);
-    margin: 5% 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h6{
+    font-family: "Forum", serif;
+    font-size: 23px;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+.button{
+    font-family: "Forum", serif;
+    font-size: 25px;
+    position: relative;
+    padding: 20px;
+    background-color:#C22A25;
+    box-shadow: 5px 5px black;
+    border: none;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.button:hover{
+    background-color: black;
+    box-shadow: 5px 5px #c22a25;
+    text-decoration: underline;
+    color:#C22A25;
+}
+
+#merchLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.merch{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.merch img{
+    width: 80%;
+    box-shadow: 15px 15px black;
+}
+
+.merch img:hover{
+    box-shadow: 15px 15px #C22A25;
+}
+
+.merch p{
+    font-family: "Forum", serif;
+    font-size: 23px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
 }
 
 footer{
@@ -55,3 +129,46 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+footer p:hover{
+    color: #C22A25;
+    text-shadow: 3px 3px 5px rgb(226, 225, 225);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  
+    * {
+      font-size: 90%;
+    }
+    
+    header{
+        padding-bottom: 5%;
+    }
+
+   h6{
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   }
+
+   #merchLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .merch img:hover{
+    box-shadow: 15px 15px #C22A25;
+   }
+
+   footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+  }
+
+
