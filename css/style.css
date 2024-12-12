@@ -23,7 +23,8 @@ header a{
     margin-top: 5%;
     color:whitesmoke;
     font-size: 25px;
-    
+    letter-spacing: 2px;
+
 }
 
 header a:hover{
@@ -44,16 +45,19 @@ h1{
     font-family: "Notable", sans-serif;
     color:#A51611;
     text-shadow: 3px 3px 5px rgb(52, 51, 51);
-    font-size: 80px;
+    font-size: 75px;
     text-align: left;
     margin: 5% 10%;
+    letter-spacing: 3px;
 }
 
 h3{
     font-family: "Notable", sans-serif;
     font-size: 30px;
-    line-height: 45px;
-    margin: 5% 10%;
+    line-height: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
 
 .info p{
@@ -100,14 +104,14 @@ h2{
     font-size: 40px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
     text-shadow: 3px 3px 5px rgb(52, 51, 51);
 }
 
 h4{
     font-family: "Notable", sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     margin: 3% 10%;
 }
 
@@ -127,13 +131,13 @@ h4{
 
 #fridayText1 h5{
     font-family: "Notable", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     padding-bottom: 1%;
 }
 
 #fridayText1 h6{
     font-family: "Forum", serif;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 #friEventInfo1{
@@ -144,7 +148,7 @@ h4{
 
 #friEventInfo1 p{
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 25px;
     padding-top: 8%;
     padding-left: 10%;
@@ -168,13 +172,13 @@ h4{
 
 #fridayText2 h5{
     font-family: "Notable", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     padding-bottom: 1%;
 }
 
 #fridayText2 h6{
     font-family: "Forum", serif;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 #friEventInfo2{
@@ -186,7 +190,7 @@ h4{
 
 #friEventInfo2 p{
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 25px;
     text-align: right;
     padding-top: 8%;
@@ -218,13 +222,13 @@ h4{
 
 #satText1 h5{
     font-family: "Notable", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     padding-bottom: 1%;
 }
 
 #satText1 h6{
     font-family: "Forum", serif;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 #satEventInfo1{
@@ -235,7 +239,7 @@ h4{
 
 #satEventInfo1 p{
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 25px;
     padding-top: 8%;
     padding-left: 10%;
@@ -259,13 +263,13 @@ h4{
 
 #satText2 h5{
     font-family: "Notable", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     padding-bottom: 1%;
 }
 
 #satText2 h6{
     font-family: "Forum", serif;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 #satEventInfo2{
@@ -277,7 +281,7 @@ h4{
 
 #satEventInfo2 p{
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 25px;
     text-align: right;
     padding-top: 13%;
@@ -294,7 +298,7 @@ h4{
 }
 
 #sunday{
-    background-color: #ca2822 ;
+    background-color: #b02f2f ;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -304,24 +308,24 @@ h4{
 }
 
 #sundayText{
-    background-color: #ca2822 ;
+    background-color: #b02f2f ;
     padding-left: 10%;
     text-align: left;
 }
 
 #sundayText h5{
     font-family: "Notable", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     padding-bottom: 1%;
 }
 
 #sundayText h6{
     font-family: "Forum", serif;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 #sunEventInfo{
-    background-color: #ca2822 ;
+    background-color: #b02f2f ;
     display: flex;
     flex-direction: row;
     padding-bottom: 8%;
@@ -329,7 +333,7 @@ h4{
 
 #sunEventInfo p{
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 25px;
     text-align: left;
     padding-top: 8%;
@@ -345,6 +349,20 @@ h4{
     box-shadow: 15px 15px black;
 }
 
+#top{
+    background-color: #b02f2f ;
+}
+
+#top p{
+    margin-left: 86%;
+}
+
+#top img{
+    margin-left: 85%;
+    margin-bottom: 5%;
+    width: 5%;
+}
+
 footer{
     background-color: black;
     color: whitesmoke;
@@ -355,6 +373,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    letter-spacing: 2px;
 }
 
 footer p:hover{
