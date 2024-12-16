@@ -24,5 +24,5 @@ https://www.figma.com/design/CIPnaTbb883XYkXZbuwQ6z/norcal-fire-support?node-id=
 ![figma](https://github.com/user-attachments/assets/f4101351-d0a7-46b8-9c3a-22b1be688fac)
 
 
-## AcknowledgmentS
+## Acknowledgment
 I would like to thank Professor Joshua Oakley for teaching me almost all of the code that was used to create this website and for pushing me to design in a way that is out of my comfort zone. I would also like to thank [W3Schools ](https://www.w3schools.com/) for helping me troubleshoot my CSS questions when I was outside of class. Most importantly, I would like to dedicate this page as a resource for all victims of wildfires and I hope you all can benefit from some of the resources I mentioned throughout the website. 
